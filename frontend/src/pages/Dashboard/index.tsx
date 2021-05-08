@@ -2,12 +2,10 @@ import { BarChart } from "../../components/BarChart";
 import { DataTable } from "../../components/DataTable";
 import { DonutChart } from "../../components/DonutChart";
 import { Footer } from "../../components/Footer";
-import { NavBar } from "../../components/Navbar";
 
 export function Dashboard() {
   return (
     <>
-      <NavBar />
       <div className="container">
         <h1 className="text-primary py-3">Dashboard Vendas</h1>
 

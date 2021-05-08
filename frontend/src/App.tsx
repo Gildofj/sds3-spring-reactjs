@@ -1,12 +1,13 @@
-import { BarChart } from "./components/BarChart";
-import { DataTable } from "./components/DataTable";
-import { Footer } from "./components/Footer";
 import { NavBar } from "./components/Navbar";
-import { DonutChart } from "./components/DonutChart";
 import { Routes } from "./Routes";
 
 function App() {
-  return <Routes />;
+  return (
+    <>
+      <NavBar />
+      <Routes />
+    </>
+  );
 }
 
 export default App;
