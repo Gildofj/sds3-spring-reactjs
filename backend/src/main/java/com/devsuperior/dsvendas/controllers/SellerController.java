@@ -1,9 +1,9 @@
-package com.devsuperios.dsvendas.controllers;
+package com.devsuperior.dsvendas.controllers;
 
 import java.util.List;
 
-import com.devsuperios.dsvendas.dto.SellerDTO;
-import com.devsuperios.dsvendas.services.SellerService;
+import com.devsuperior.dsvendas.dto.SellerDTO;
+import com.devsuperior.dsvendas.services.SellerService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

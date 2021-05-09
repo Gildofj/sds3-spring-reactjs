@@ -1,12 +1,12 @@
-package com.devsuperios.dsvendas.services;
+package com.devsuperior.dsvendas.services;
 
 import java.util.List;
 
-import com.devsuperios.dsvendas.dto.SaleDTO;
-import com.devsuperios.dsvendas.dto.SaleSuccessDTO;
-import com.devsuperios.dsvendas.dto.SaleSumDTO;
-import com.devsuperios.dsvendas.entities.Sale;
-import com.devsuperios.dsvendas.repositories.SaleRepository;
+import com.devsuperior.dsvendas.dto.SaleDTO;
+import com.devsuperior.dsvendas.dto.SaleSuccessDTO;
+import com.devsuperior.dsvendas.dto.SaleSumDTO;
+import com.devsuperior.dsvendas.entities.Sale;
+import com.devsuperior.dsvendas.repositories.SaleRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -17,6 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 public class SaleService {
 
+	
     @Autowired
     private SaleRepository repository;
 

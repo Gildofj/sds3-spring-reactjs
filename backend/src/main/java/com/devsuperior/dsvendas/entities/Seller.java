@@ -1,4 +1,4 @@
-package com.devsuperios.dsvendas.entities;
+package com.devsuperior.dsvendas.entities;
 
 import java.util.ArrayList;
 import java.util.List;
