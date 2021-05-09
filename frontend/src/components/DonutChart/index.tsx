@@ -15,16 +15,17 @@ export function DonutChart() {
   });
 
   useEffect(() => {
-    async function getChartData() {
-      const res = await api.get("/sales/amountBySeller");
-      const data = res.data as SaleSum[];
-      setChartData({
-        labels: data.map((sale) => sale.sellerName),
-        series: data.map((sale) => sale.sum),
-      });
-    }
     getChartData();
   }, []);
+
+  const getChartData = async () => {
+    const res = await api.get("/sales/amountBySeller");
+    const data = res.data as SaleSum[];
+    setChartData({
+      labels: data.map((sale) => sale.sellerName),
+      series: data.map((sale) => sale.sum),
+    });
+  };
 
   const options = {
     legend: {
