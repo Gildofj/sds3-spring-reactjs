@@ -35,11 +35,6 @@ export function DataTable() {
 
   return (
     <>
-      <Pagination
-        page={page}
-        handlePreviousPage={handlePreviousPage}
-        handleNextPage={handleNextPage}
-      />
       <div className="table-responsive">
         <table className="table table-striped table-sm">
           <thead>
@@ -64,6 +59,11 @@ export function DataTable() {
           </tbody>
         </table>
       </div>
+      <Pagination
+        page={page}
+        handlePreviousPage={handlePreviousPage}
+        handleNextPage={handleNextPage}
+      />
     </>
   );
 }
