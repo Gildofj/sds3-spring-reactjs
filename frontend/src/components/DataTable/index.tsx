@@ -16,6 +16,7 @@ export function DataTable() {
 
   useEffect(() => {
     getSales();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activePage]);
 
   const getSales = async () => {
